@@ -38,6 +38,7 @@ class UserServiceTest {
         ));
 
         var got = userService.computeGenderRatio();
+
         assertEquals(0.3333333333333333,got.boys());
         assertEquals(0.3333333333333333,got.girls());
         assertEquals(0.3333333333333333,got.unknown());
